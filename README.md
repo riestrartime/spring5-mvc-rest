@@ -10,3 +10,16 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 - Using a convention to include the data loader inside a bootstrap class/package.
 - CommandLineRunner is executed while the server is started.
 
+## Using MapStruct
+- The Mapper is able to do the mapping automatically between object and DTO, using same names.
+- The following code in pom.xml tells MapStruct that mappers should be generated as Spring components
+```
+<compilerArgs>
+    <compilerArg>
+        -Amapstruct.defaultComponentModel=spring
+    </compilerArg>
+</compilerArgs>  
+  ```
+
+## Category Service
+- 
