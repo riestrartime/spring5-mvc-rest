@@ -21,5 +21,6 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 </compilerArgs>  
   ```
 
-## Category Service
+## Exception Handling
+- There is an annotation that can be used to mark a controller that is handling Exceptions `@ControllerAdvice`.
 - 
