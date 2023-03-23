@@ -23,4 +23,9 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 
 ## Exception Handling
 - There is an annotation that can be used to mark a controller that is handling Exceptions `@ControllerAdvice`.
+
+## Spring REST Controller
+- The annotation `@RestController` was introduced in Spring4.
+- This gives us the `@ResponseBody` annotation (from Spring 3).
+- `ResponseEntity` in the controller method return is implicit, so not needed.
 - 
