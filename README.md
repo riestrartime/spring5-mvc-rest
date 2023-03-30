@@ -42,4 +42,8 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 - We need to modify two objects: 
   - AppInfo
   - Contact
-- 
+
+## Customizing Endpoint Documentation
+- Annotations at the controller level. `@Api`
+- Also annotations on each method, including info and notes `@ApiOperation(value, notes)`
+- Annotations on the model itself
