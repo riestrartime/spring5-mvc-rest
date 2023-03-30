@@ -28,4 +28,18 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 - The annotation `@RestController` was introduced in Spring4.
 - This gives us the `@ResponseBody` annotation (from Spring 3).
 - `ResponseEntity` in the controller method return is implicit, so not needed.
+
+# Using Swagger
+## Swagger UI
+- SpringBoot does part of the set up for us. In a non-springBoot project, the resources for "swagger-ui.html" and "/webjars/**" would need to be done manually.
+    - Make SwaggerConfig extend WebMvcConfigurationSupport.
+    - Override addResourceHandlers with the following:
+      - `registry.addResourceHandler("swagger-ui.html").addResourceLocations("classpath:/META-INF/resources/")`
+      - `registry.addResourceHandler("/webjars/**").addResourceLocations("classpath:/META-INF/resources/webjars")`
+
+## Customizing swagger with MetaData
+- MetaData is data about data.
+- We need to modify two objects: 
+  - AppInfo
+  - Contact
 - 
