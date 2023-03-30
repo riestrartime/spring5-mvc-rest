@@ -52,3 +52,8 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 - Using swagger editor, you could create the documentation before creating the api.
   - With this you have a "contract" to implement towards.
   - It could be a good starting point.
+
+# Spring MVC Content Negotiation
+- Just by adding the two Maven dependencies, the code is able to return `application/json` and `application/xml` content, depending on the client request.
+- By doing this change, the Controller tests were failing. 
+  - As the controllers now return either xml or json, we have to specify in the controller tests the accept value.
