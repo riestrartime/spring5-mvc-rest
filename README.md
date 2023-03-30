@@ -47,3 +47,8 @@ You can learn about my Spring Framework 5 Online course [here.](http://courses.s
 - Annotations at the controller level. `@Api`
 - Also annotations on each method, including info and notes `@ApiOperation(value, notes)`
 - Annotations on the model itself
+
+## Swagger Editor
+- Using swagger editor, you could create the documentation before creating the api.
+  - With this you have a "contract" to implement towards.
+  - It could be a good starting point.
